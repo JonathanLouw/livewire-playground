@@ -9,7 +9,7 @@ class DeferExample extends Component
 {
     public bool $load = false;
 
-    public function loadArticles(): void
+    public function loadUsers(): void
     {
         $this->load = true;
     }
